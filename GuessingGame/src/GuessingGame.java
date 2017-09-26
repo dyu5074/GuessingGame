@@ -28,8 +28,13 @@ public class GuessingGame
 		int answer = (int)((Math.random()) * 10 + 1);
 		System.out.println("Guess a number between 1 - 10 ");
  		int guess = input.nextInt(); 
+ 		if(guess != answer)
+ 		{
+ 			System.out.println("Guess again ");
+ 		}
  		while (guess != answer)
 		{
+ 			
  			Scanner guess1 = new Scanner(System.in);
  			try
  			{
