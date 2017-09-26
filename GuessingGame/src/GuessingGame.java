@@ -16,7 +16,7 @@ public class GuessingGame
 		System.out.println("Nice to meet you " + s);
 		System.out.println("How old are you? " + s);
 		int x = input.nextInt();
-		if (x > 40)
+		if (x > 39)
 		{
 			System.out.println("You are old " + s);
 		}
